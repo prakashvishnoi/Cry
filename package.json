@@ -1,14 +1,17 @@
 {
   "name": "proxy-server",
   "version": "1.0.0",
+  "description": "A proxy server to fetch data from coindcx.com",
   "main": "proxy.js",
-  "type": "module",
   "scripts": {
     "start": "node proxy.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
 
