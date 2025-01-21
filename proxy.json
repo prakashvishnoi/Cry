@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "dest": "https://cry-production.up.railway.app/"
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "dest": "https://cry-production.up.railway.app/api"
+    }
+  ]
+}
+
